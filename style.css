@@ -74,6 +74,8 @@ nav .cart-item-icon{
     cursor: pointer;
 }
 
+.product-list .img-box 
+
 .product-list .img-box img:hover{
     transform: scale(1.1);
 }
@@ -101,6 +103,10 @@ nav .cart-item-icon{
     display: block;
     object-fit: cover;  
     overflow: hidden;     
+}
+
+.product-detail .product-img .main-img img{
+    height: 100%;
 }
 
 .product-detail .thumbnail-list{
