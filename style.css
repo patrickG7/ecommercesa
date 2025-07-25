@@ -21,8 +21,8 @@ nav{
 nav .logo{
     font-size: 30px;
     text-decoration: none;
-    color: black;
-    font-weight: bold;
+    color: black;   
+    font-weight: 600;
 }
 
 .cart-icon{
