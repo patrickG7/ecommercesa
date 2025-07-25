@@ -96,7 +96,8 @@ nav .cart-item-icon{
 }
 
 .product-detail .product-img img{
-    width: 100%;     
+    width: 100%;   
+    heigth: 100%;
     display: block;
     object-fit: cover;  
     overflow: hidden;     
