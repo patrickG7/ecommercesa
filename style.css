@@ -46,7 +46,8 @@ nav .cart-item-icon{
     top: 0;
     right: -6px;    
     line-height: 23px;
-    align-items: center;    
+    align-items: center; 
+    display: none; 
 }
 
 .product-collection{
