@@ -158,5 +158,66 @@ const products = [
                 sizes: ["S", "M", "L", "XL", "XXL"]
             }
         ]
-    }
+    },
+     {
+        id: 9,
+        title: "Men Puma Sweater",
+        price: "$50",
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam laborum aut explicabo molestias voluptas, eum nulla doloremque laboriosam. Accusantium omnis illum nulla architecto doloribus.",
+        colors: [
+            {
+                name: "Red",
+                mainImage: "images/gallery-1.jpg",
+                thumbnails: [
+                    "images/gallery-2.jpg",
+                    "images/gallery-3.jpg",
+                    "images/gallery-4.jpg"
+                ],
+                sizes: ["M", "L", "XL"]
+            }
+        ]
+    },
+     {
+        id: 10,
+        title: "Fossil Mens Watch",
+        price: "$147",
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam laborum aut explicabo molestias voluptas, eum nulla doloremque laboriosam. Accusantium omnis illum nulla architecto doloribus.",
+        colors: [
+            {
+                name: "Black",
+                mainImage: "images/product-8.jpg",
+                thumbnails: [],
+                sizes: ["S", "M", "L"]
+            }
+        ]
+    },
+     {
+        id: 11,
+        title: "HRX Mens Sneakers",
+        price: "$147",
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam laborum aut explicabo molestias voluptas, eum nulla doloremque laboriosam. Accusantium omnis illum nulla architecto doloribus.",
+        colors: [
+            {
+                name: "Black",
+                mainImage: "images2/product-2.jpg",
+                thumbnails: [],
+                sizes: ["S", "M", "L"]
+            }
+        ]
+    },
+     {
+        id: 12,
+        title: "Mens Blue T-Shirt",
+        price: "$147",
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam laborum aut explicabo molestias voluptas, eum nulla doloremque laboriosam. Accusantium omnis illum nulla architecto doloribus.",
+        colors: [
+            {
+                name: "Black",
+                mainImage: "images2/product-4.jpg",
+                thumbnails: [],
+                sizes: ["S", "M", "L"]
+            }
+        ]
+    },
+     
 ];

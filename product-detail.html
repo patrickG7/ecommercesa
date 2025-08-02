@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Cart</title>
+    <title>Product</title>
 </head>
 <body>
    
@@ -28,42 +28,58 @@
         </div> 
     </div>
     
-    <div class="cart">
-        <div class="cart-heading">
-            <span>Product</span>
-            <span>Price</span>
-            <span>Quantity</span>
-            <span>Total Items</span>
-            <span>Remove</span>
+    <div class="product-detail">
+        <div class="product-img">
+            <div class="thumbnail-list">
+                <!-- <img src="images/product1_green_1.jpg" alt="">
+                <img src="images/product1_green_2.jpg" alt="">
+                <img src="images/product1_green_3.jpg" alt="">
+                <img src="images/product1_green_4.jpg" alt=""> -->
+            </div>
+            <div class="main-img">
+                <!-- <img src="images/product1_green_1.jpg" alt=""> -->
+            </div>
         </div>
-        <div class="cart-items">
-            <!-- <div class="cart-item">
-                <div class="product">
-                    <div class="items">
-                        <img src="images/product1_green_1.jpg" alt="">
-                        <div class="size-color-box">
-                            <p class="title">Men T-Shirt</p>
-                            <span class="size">S</span>
-                            <span class="color">Green</span>
-                        </div>
-                    </div>                    
+        <div class="product-info">
+            <h1 class="title"></h1>
+             <div class="rating">
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+            </div>
+            <p class="price"></p>
+            <p class="description"></p>
+            <div class="size-selection">
+                <p>Select Size</p>
+                <div class="size-options">
+                    <!-- <button class="selected">S</button>
+                    <button>M</button>
+                    <button>L</button>
+                    <button>XL</button>
+                    <button>XXL</button> -->
                 </div>
-                <span class="price">$100</span>
-                <span class="quantity"><input type="number" value="1" min="1"></span>
-                <span class="total-items">5</span>
-                <button class="remove">x</button>
-            </div> -->
-        </div>
-        <div class="cart-total">
-            <h3>Cart Items</h3>
-            <p>Subtotal <span class="subtotal">$50</span></p>
-            <p>Deliver Fee <span>Free</span></p>
-            <p>Grandtotal <span class="grand-total">$150</span></p>
-            <button class="btn">Proceed to checkout</button>
+            </div>
+            <div class="color-selection">
+                <p>Select Color</p>
+                <div class="color-options">
+                    <!-- <img class="selected" src="images/product1_maroon_1.jpg" alt="">
+                    <img src="images/product1_red_1.jpg" alt="">
+                    <img src="images/product1_yellow_1.jpg" alt="">
+                    <img src="images/product1_white_1.jpg" alt=""> -->
+                </div>
+            </div>
+            <button class="btn" id="addToCart">Add to Cart</button>
+            <div class="policy">
+                <p>100% Quality Products</p>
+                <p>Return within 15 days of purchase</p>
+            </div>
         </div>
     </div>
 
-    
+
+
     <div class="footer">
         <div class="row">
             <div class="footer-col-1">
