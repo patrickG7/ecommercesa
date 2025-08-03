@@ -222,14 +222,15 @@ function cartItemCounter(){
     if(badge){
         if(cartCount > 0){
             badge.textContent = cartCount;
-            badge.stylee.display = "block";
+            badge.style.display = "block";
         }else{
-            badge.stylee.display = "none";
+            badge.style.display = "none";
         }
     }
 }
 
 cartItemCounter();
  
+
 
 
